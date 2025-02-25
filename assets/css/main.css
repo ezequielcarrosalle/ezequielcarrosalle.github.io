@@ -870,7 +870,7 @@ section,
   position: relative;
 }
 
-.hero img {
+.hero .carousel-item > img {
   position: absolute;
   inset: 0;
   display: block;
