@@ -53,13 +53,13 @@
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/long-logo.png" alt="">
+          <img src="assets/img/logo2.jpg" alt="">
           <!-- <h1 class="sitename">Phycotech</h1> -->
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#hero" class="active">Nuestra tecnología</a></li>
             <li><a href="#about">Acerca de nosotros</a></li>
             <li><a href="#services">Servicios</a></li>
             <li><a href="#team">Equipo</a></li>
@@ -82,10 +82,18 @@
       <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="carousel-item active">
-          <img src="assets/img/hero-carousel/hero-carousel1.jpeg" alt="">
+          <!--img src="assets/img/hero-carousel/hero-carousel1.jpeg" alt=""-->
+          <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+            <source src="assets/video.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+          </video>
           <div class="carousel-container">
-            <h2><img style="max-height: 80px; max-width: 100%;" src="assets/img/long-logo-white.png" alt=""><br>Proteínas inteligentes, soluciones sostenibles</h2>
-            <p>Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
+            <h1 class="d-none d-md-block" style="font-size: 58px;">Proteínas inteligentes, soluciones sostenibles</h1>
+            <h2 class="d-block d-md-none">Proteínas inteligentes, soluciones sostenibles</h2>
+
+            <p class="text-white d-none d-md-block" style="font-size: 22px;
+            text-align: center;">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
+            <p class="d-block d-md-none">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
             <a href="#featured-services" class="btn-get-started">Nuestra tecnología</a>
           </div>
         </div><!-- End Carousel Item -->
@@ -130,34 +138,34 @@
         <div class="row gy-4">
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-check-square icon"></i></div>
-              <h4><a href="" class="stretched-link">Proteínas de mayor calidad</a></h4>
-              <p>Con modificaciones post-traduccionales idénticas a las humanas</p>
+              <h4><a class="stretched-link">Mayor calidad</a></h4>
+              <p>Con modificaciones post-traduccionales idénticas a las humanas.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-piggy-bank icon"></i></div>
-              <h4><a href="" class="stretched-link">Menor costo</a></h4>
-              <p>Hasta un X% menos que los sistemas tradicionales</p>
+              <h4><a class="stretched-link">Menor costo</a></h4>
+              <p>Hasta un 40-60% menos que los sistemas tradicionales de producción en células de mamífero.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-feather2 icon"></i></div>
-              <h4><a href="" class="stretched-link">Sustentabilidad</a></h4>
-              <p>Algunos % de huella de carbono o de fijación</p>
+              <h4><a class="stretched-link">Sustentabilidad</a></h4>
+              <p>Reducción de la huella de carbono en 30-50%, con captura de CO₂ de hasta 1.8 kg de CO₂ por kg de biomasa.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-bootstrap-reboot icon"></i></div>
-              <h4><a href="" class="stretched-link">Revalorización</a></h4>
-              <p>Extracción de otros productos de valor agregado a partir de la biomasa residual</p>
+              <h4><a class="stretched-link">Revalorización</a></h4>
+              <p>Aprovechamos hasta el 80% de la biomasa residual en pigmentos, antioxidantes y bioplásticos.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -173,17 +181,20 @@
       <!-- Título de la Sección -->
       <div class="container section-title aos-init aos-animate" data-aos="fade-up">
         <h2>Acerca de Nosotros</h2>
-        <p>Proteínas inteligentes, soluciones sostenibles</p>
       </div><!-- Fin del Título de la Sección -->
     
       <div class="container">
     
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="Nosotros">
+            <img src="assets/img/equipo.jpeg" class="img-fluid" alt="Nosotros">
             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
           </div>
-          <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="vertical-align: middle;
+          justify-content: center;
+          display: flex
+      ;
+          flex-direction: column;">
             <h3>Innovación en biotecnología</h3>
             <p class="fst-italic">
               En Phycotech, la innovación nace de la unión entre la experiencia y la pasión por la biotecnología.
@@ -264,7 +275,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Ofrecemos soluciones para:</h2>
-        <p>Farma, Cosmética, Alimentos y R&D</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -274,8 +284,8 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item item-cyan position-relative">
               <i class="bi bi-capsule icon"></i> <!-- Icono para Farma -->
-              <h3><a class="read-more stretched-link">Farma</a></h3>
-              <p>Desarrollamos proteínas recombinantes de alto valor para terapias innovadoras, garantizando calidad y escalabilidad en la producción.</p>
+              <h3><a class="read-more stretched-link">Farmacéuticos</a></h3>
+              <p >Desarrollamos proteínas recombinantes de alto valor para terapias innovadoras, garantizando calidad y escalabilidad en la producción.</p>
             </div>
           </div><!-- End Service Item -->
         
@@ -350,8 +360,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Equipo Fundador</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Equipo</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
