@@ -1225,10 +1225,8 @@ section,
 }
 
 .services .service-item.item-teal .icon {
-  /* color: #20c997;
-  background: rgba(32, 201, 151, 0.1); */
-  color: #5d6e26;
-  background: rgba(149, 180, 70, 0.5);
+  color: #20c997;
+  background: rgba(32, 201, 151, 0.1);
 }
 
 .services .service-item.item-red .icon {

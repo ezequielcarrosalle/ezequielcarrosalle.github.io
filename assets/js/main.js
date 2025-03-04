@@ -105,6 +105,7 @@
   /**
    * Auto generate the carousel indicators
    */
+  /*
   document.querySelectorAll('.carousel-indicators').forEach((carouselIndicator) => {
     carouselIndicator.closest('.carousel').querySelectorAll('.carousel-item').forEach((carouselItem, index) => {
       if (index === 0) {
@@ -114,6 +115,7 @@
       }
     });
   });
+  */
 
   /**
    * Initiate glightbox
