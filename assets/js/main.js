@@ -97,7 +97,8 @@
       duration: 600,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: false,
+      offset: 50
     });
   }
   window.addEventListener('load', aosInit);
