@@ -98,7 +98,7 @@
       easing: 'ease-in-out',
       once: true,
       mirror: false,
-      offset: 50
+      offset: -50
     });
   }
   window.addEventListener('load', aosInit);

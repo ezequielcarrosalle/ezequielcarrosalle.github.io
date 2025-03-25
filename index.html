@@ -41,6 +41,10 @@
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <div class="language-selector ms-3">
+            <button id="es-btn" class="btn btn-sm lang-btn active" onclick="changeLanguage('es')">ES</button>
+            <button id="en-btn" class="btn btn-sm lang-btn" onclick="changeLanguage('en')">EN</button>
+          </div>
         </div>
       </div>
     </div><!-- End Top Bar -->
@@ -51,16 +55,16 @@
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="assets/img/logo2.jpg" alt="">
-          <!-- <h1 class="sitename">Phycotech</h1> -->
+          <!-- <h1 class="sitename" data-en="Phycotech" data-es="Phycotech">Phycotech</h1> -->
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#nuestra-tecnologia" class="active">Nuestra tecnología</a></li>
-            <li><a href="#acerca-de-nosotros">Acerca de nosotros</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#equipo">Equipo</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#nuestra-tecnologia" class="active" data-en="Our Technology" data-es="Nuestra tecnología">Nuestra tecnología</a></li>
+            <li><a href="#acerca-de-nosotros" data-en="About Us" data-es="Acerca de nosotros">Acerca de nosotros</a></li>
+            <li><a href="#servicios" data-en="Services" data-es="Servicios">Servicios</a></li>
+            <li><a href="#equipo" data-en="Team" data-es="Equipo">Equipo</a></li>
+            <li><a href="#contacto" data-en="Contact" data-es="Contacto">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -82,16 +86,16 @@
           <!--img src="assets/img/hero-carousel/hero-carousel1.jpeg" alt=""-->
           <video autoplay loop muted playsinline>
             <source src="assets/video.mp4" type="video/mp4">
-            Tu navegador no soporta videos HTML5.
+            <span data-en="Your browser does not support HTML5 videos." data-es="Tu navegador no soporta videos HTML5.">Tu navegador no soporta videos HTML5.</span>
           </video>
           <div class="carousel-container">
-            <h1 class="d-none d-md-block text-center" style="font-size: 58px;">Proteínas inteligentes, soluciones sostenibles</h1>
-            <h2 class="d-block d-md-none">Proteínas inteligentes, soluciones sostenibles</h2>
+            <h1 class="d-none d-md-block text-center" style="font-size: 58px;" data-en="Smart proteins, sustainable solutions" data-es="Proteínas inteligentes, soluciones sostenibles">Proteínas inteligentes, soluciones sostenibles</h1>
+            <h2 class="d-block d-md-none" data-en="Smart proteins, sustainable solutions" data-es="Proteínas inteligentes, soluciones sostenibles">Proteínas inteligentes, soluciones sostenibles</h2>
 
             <p class="text-white d-none d-md-block" style="font-size: 22px;
-            text-align: center;">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
-            <p class="d-block d-md-none">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
-            <a href="#nuestra-tecnologia" class="btn-get-started">Nuestra tecnología</a>
+            text-align: center;" data-en="We seek to revolutionize the production of recombinant proteins in the industry through the use of microalgae as a biotechnological platform" data-es="Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
+            <p class="d-block d-md-none" data-en="We seek to revolutionize the production of recombinant proteins in the industry through the use of microalgae as a biotechnological platform" data-es="Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
+            <a href="#nuestra-tecnologia" class="btn-get-started" data-en="Our Technology" data-es="Nuestra tecnología">Nuestra tecnología</a>
           </div>
         </div><!-- End Carousel Item -->
       </div>
@@ -108,32 +112,32 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-check-square icon"></i></div>
-              <h4><a class="stretched-link">Mayor calidad</a></h4>
-              <p>Con modificaciones post-traduccionales idénticas a las humanas.</p>
+              <h4><a class="stretched-link" data-en="Higher quality" data-es="Mayor calidad">Mayor calidad</a></h4>
+              <p data-en="With post-translational modifications identical to human ones." data-es="Con modificaciones post-traduccionales idénticas a las humanas.">Con modificaciones post-traduccionales idénticas a las humanas.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-piggy-bank icon"></i></div>
-              <h4><a class="stretched-link">Menor costo</a></h4>
-              <p>Hasta un 40-60% menos que los sistemas tradicionales de producción en células de mamífero.</p>
+              <h4><a class="stretched-link" data-en="Lower cost" data-es="Menor costo">Menor costo</a></h4>
+              <p data-en="Up to 40-60% less than traditional mammalian cell production systems." data-es="Hasta un 40-60% menos que los sistemas tradicionales de producción en células de mamífero.">Hasta un 40-60% menos que los sistemas tradicionales de producción en células de mamífero.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-feather2 icon"></i></div>
-              <h4><a class="stretched-link">Sustentabilidad</a></h4>
-              <p>Reducción de la huella de carbono en 30-50%, con captura de CO₂ de hasta 1.8 kg de CO₂ por kg de biomasa.</p>
+              <h4><a class="stretched-link" data-en="Sustainability" data-es="Sustentabilidad">Sustentabilidad</a></h4>
+              <p data-en="Carbon footprint reduction of 30-50%, with CO₂ capture of up to 1.8 kg of CO₂ per kg of biomass." data-es="Reducción de la huella de carbono en 30-50%, con captura de CO₂ de hasta 1.8 kg de CO₂ por kg de biomasa.">Reducción de la huella de carbono en 30-50%, con captura de CO₂ de hasta 1.8 kg de CO₂ por kg de biomasa.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative text-center">
               <div class="icon"><i class="bi bi-bootstrap-reboot icon"></i></div>
-              <h4><a class="stretched-link">Revalorización</a></h4>
-              <p>Aprovechamos hasta el 80% de la biomasa residual en pigmentos, antioxidantes y bioplásticos.</p>
+              <h4><a class="stretched-link" data-en="Revalorization" data-es="Revalorización">Revalorización</a></h4>
+              <p data-en="We utilize up to 80% of residual biomass in pigments, antioxidants, and bioplastics." data-es="Aprovechamos hasta el 80% de la biomasa residual en pigmentos, antioxidantes y bioplásticos.">Aprovechamos hasta el 80% de la biomasa residual en pigmentos, antioxidantes y bioplásticos.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -148,14 +152,14 @@
 
       <!-- Título de la Sección -->
       <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-        <h2>Acerca de Nosotros</h2>
+        <h2 data-en="About Us" data-es="Acerca de Nosotros">Acerca de Nosotros</h2>
       </div><!-- Fin del Título de la Sección -->
     
       <div class="container">
     
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/equipo.jpeg" class="img-fluid" alt="Nosotros">
+            <img src="assets/img/Patio.png" class="img-fluid" alt="Nosotros">
             <a href="https://youtube.com/watch?v=5YHPJsMJJUM" class="glightbox pulsating-play-btn"></a>
           </div>
           <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="vertical-align: middle;
@@ -163,16 +167,16 @@
           display: flex
       ;
           flex-direction: column;">
-            <h3>Innovación en biotecnología</h3>
-            <p class="fst-italic">
+            <h3 data-en="Innovation in biotechnology" data-es="Innovación en biotecnología">Innovación en biotecnología</h3>
+            <p class="fst-italic" data-en="At Phycotech, innovation is born from the union of experience and passion for biotechnology." data-es="En Phycotech, la innovación nace de la unión entre la experiencia y la pasión por la biotecnología.">
               En Phycotech, la innovación nace de la unión entre la experiencia y la pasión por la biotecnología.
             </p>
             <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Equipo liderado por un ingeniero en biotecnología, candidato a doctor en bioprocesos de microalgas.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Respaldados por tres estudiantes avanzadas de ingeniería en biotecnología.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Comprometidos con transformar ideas en soluciones disruptivas y sostenibles.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span data-en="Team led by a biotechnology engineer, PhD candidate in microalgae bioprocesses." data-es="Equipo liderado por un ingeniero en biotecnología, candidato a doctor en bioprocesos de microalgas.">Equipo liderado por un ingeniero en biotecnología, candidato a doctor en bioprocesos de microalgas.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span data-en="Supported by three advanced biotechnology engineering students." data-es="Respaldados por tres estudiantes avanzadas de ingeniería en biotecnología.">Respaldados por tres estudiantes avanzadas de ingeniería en biotecnología.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span data-en="Committed to transforming ideas into disruptive and sustainable solutions." data-es="Comprometidos con transformar ideas en soluciones disruptivas y sostenibles.">Comprometidos con transformar ideas en soluciones disruptivas y sostenibles.</span></li>
             </ul>
-            <p>
+            <p data-en="We develop microalgae-based products with a sustainable approach, driving biotechnology towards a more efficient and ecological future." data-es="Desarrollamos productos basados en microalgas con un enfoque sostenible, impulsando la biotecnología hacia un futuro más eficiente y ecológico.">
               Desarrollamos productos basados en microalgas con un enfoque sostenible, impulsando la biotecnología hacia un futuro más eficiente y ecológico.
             </p>
           </div>
@@ -186,7 +190,7 @@
     <!-- Apoyados por -->
     <section id="apoyados-por" class="clients section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Apoyados por</h2>
+        <h2 data-en="Supported by" data-es="Apoyados por">Apoyados por</h2>
       </div><!-- End Section Title -->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -242,7 +246,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Ofrecemos soluciones para:</h2>
+        <h2 data-en="We offer solutions for:" data-es="Ofrecemos soluciones para:">Ofrecemos soluciones para:</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -252,48 +256,48 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="service-item item-cyan position-relative">
               <i class="bi bi-capsule icon"></i>
-              <h3><a class="read-more stretched-link">Farmacéuticos</a></h3>
-              <p>Buscamos desarrollar proteínas recombinantes de alto valor para terapias innovadoras, garantizando calidad y escalabilidad en la producción.</p>
+              <h3><a class="read-more stretched-link" data-en="Pharmaceuticals" data-es="Farmacéuticos">Farmacéuticos</a></h3>
+              <p data-en="We seek to develop high-value recombinant proteins for innovative therapies, ensuring quality and scalability in production." data-es="Buscamos desarrollar proteínas recombinantes de alto valor para terapias innovadoras, garantizando calidad y escalabilidad en la producción.">Buscamos desarrollar proteínas recombinantes de alto valor para terapias innovadoras, garantizando calidad y escalabilidad en la producción.</p>
             </div>
           </div><!-- End Service Item -->
         
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="service-item item-orange position-relative">
               <i class="bi bi-brush icon"></i>
-              <h3><a class="read-more stretched-link">Cosmética</a></h3>
-              <p>Creamos ingredientes bioactivos de origen biotecnológico, con propiedades antioxidantes y regenerativas para el cuidado de la piel y el cabello.</p>
+              <h3><a class="read-more stretched-link" data-en="Cosmetics" data-es="Cosmética">Cosmética</a></h3>
+              <p data-en="We create bioactive ingredients of biotechnological origin, with antioxidant and regenerative properties for skin and hair care." data-es="Creamos ingredientes bioactivos de origen biotecnológico, con propiedades antioxidantes y regenerativas para el cuidado de la piel y el cabello.">Creamos ingredientes bioactivos de origen biotecnológico, con propiedades antioxidantes y regenerativas para el cuidado de la piel y el cabello.</p>
             </div>
           </div><!-- End Service Item -->
         
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="service-item item-teal position-relative">
               <i class="bi bi-basket3 icon"></i>
-              <h3><a class="read-more stretched-link">Alimentos</a></h3>
-              <p>Buscamos aplicar biotecnología para mejorar la funcionalidad de los alimentos, optimizando proteínas y compuestos bioactivos para una nutrición avanzada.</p>
+              <h3><a class="read-more stretched-link" data-en="Food" data-es="Alimentos">Alimentos</a></h3>
+              <p data-en="We seek to apply biotechnology to improve food functionality, optimizing proteins and bioactive compounds for advanced nutrition." data-es="Buscamos aplicar biotecnología para mejorar la funcionalidad de los alimentos, optimizando proteínas y compuestos bioactivos para una nutrición avanzada.">Buscamos aplicar biotecnología para mejorar la funcionalidad de los alimentos, optimizando proteínas y compuestos bioactivos para una nutrición avanzada.</p>
             </div>
           </div><!-- End Service Item -->
         
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="service-item item-red position-relative">
               <i class="bi bi-search icon"></i>
-              <h3><a class="read-more stretched-link">R&D</a></h3>
-              <p>Apoyamos la investigación con bioprocesos eficientes, herramientas de bioingeniería y reactivos de alta especificidad para el desarrollo científico.</p>
+              <h3><a class="read-more stretched-link" data-en="R&D" data-es="R&D">R&D</a></h3>
+              <p data-en="We support research with efficient bioprocesses, bioengineering tools, and high-specificity reagents for scientific development." data-es="Apoyamos la investigación con bioprocesos eficientes, herramientas de bioingeniería y reactivos de alta especificidad para el desarrollo científico.">Apoyamos la investigación con bioprocesos eficientes, herramientas de bioingeniería y reactivos de alta especificidad para el desarrollo científico.</p>
             </div>
           </div><!-- End Service Item -->
         
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="service-item item-indigo position-relative">
               <i class="bi bi-gear-wide-connected icon"></i>
-              <h3><a class="read-more stretched-link">Bioprocesos</a></h3>
-              <p>Implementamos sistemas eficientes de fermentación y purificación para la producción sostenible de biomoléculas, reduciendo costos y optimizando rendimientos.</p>
+              <h3><a class="read-more stretched-link" data-en="Bioprocesses" data-es="Bioprocesos">Bioprocesos</a></h3>
+              <p data-en="We implement efficient fermentation and purification systems for sustainable biomolecule production, reducing costs and optimizing yields." data-es="Implementamos sistemas eficientes de fermentación y purificación para la producción sostenible de biomoléculas, reduciendo costos y optimizando rendimientos.">Implementamos sistemas eficientes de fermentación y purificación para la producción sostenible de biomoléculas, reduciendo costos y optimizando rendimientos.</p>
             </div>
           </div><!-- End Service Item -->
         
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="service-item item-pink position-relative">
               <i class="bi bi-heart-pulse icon"></i>
-              <h3><a class="read-more stretched-link">Diagnóstico</a></h3>
-              <p>Buscamos desarrollar soluciones para la detección precisa de biomarcadores y análisis clínicos, mejorando tiempos de respuesta y confiabilidad.</p>
+              <h3><a class="read-more stretched-link" data-en="Diagnostics" data-es="Diagnóstico">Diagnóstico</a></h3>
+              <p data-en="We seek to develop solutions for precise detection of biomarkers and clinical analysis, improving response times and reliability." data-es="Buscamos desarrollar soluciones para la detección precisa de biomarcadores y análisis clínicos, mejorando tiempos de respuesta y confiabilidad.">Buscamos desarrollar soluciones para la detección precisa de biomarcadores y análisis clínicos, mejorando tiempos de respuesta y confiabilidad.</p>
             </div>
           </div><!-- End Service Item -->
         
@@ -309,7 +313,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Equipo</h2>
+        <h2 data-en="Team" data-es="Equipo">Equipo</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -318,11 +322,11 @@
 
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/team/team1.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/team/mar.png" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Marcia Martinez</h4>
-                <span>Co-fundadora</span>
-                <p>Estudiante avanzada de ingeniería en biotecnología<br><br><br></p>
+                <span data-en="Co-founder" data-es="Co-fundadora">Co-fundadora</span>
+                <p data-en="Advanced biotechnology engineering student" data-es="Estudiante avanzada de ingeniería en biotecnología">Estudiante avanzada de ingeniería en biotecnología<br><br><br></p>
                 <div class="social">
                   <a href="https://www.linkedin.com/in/marcia-mart%C3%ADnez-carlis-099595346/"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -332,11 +336,11 @@
           
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/team/team2.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/team/facu.png" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Facundo Rocha</h4>
-                <span>Co-fundador</span>
-                <p>Ingeniero en Biotecnología y candidato a Doctor en Bioprocesos de Microalgas. Profesor y coordinador en la Universidad ORT.</p>
+                <span data-en="Co-founder" data-es="Co-fundador">Co-fundador</span>
+                <p data-en="Biotechnology Engineer and PhD candidate in Microalgae Bioprocesses. Professor and coordinator at ORT University." data-es="Ingeniero en Biotecnología y candidato a Doctor en Bioprocesos de Microalgas. Profesor y coordinador en la Universidad ORT.">Ingeniero en Biotecnología y candidato a Doctor en Bioprocesos de Microalgas. Profesor y coordinador en la Universidad ORT.</p>
                 <div class="social">
                   <a href="https://www.linkedin.com/in/rocha-facundo/"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -346,11 +350,11 @@
           
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <img src="assets/img/team/team3.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/team/mati.png" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Matilde Klett</h4>
-                <span>Co-fundadora</span>
-                <p>Estudiante avanzada de ingeniería en biotecnología<br><br><br></p>
+                <span data-en="Co-founder" data-es="Co-fundadora">Co-fundadora</span>
+                <p data-en="Advanced biotechnology engineering student" data-es="Estudiante avanzada de ingeniería en biotecnología">Estudiante avanzada de ingeniería en biotecnología<br><br><br></p>
                 <div class="social">
                   <a href="https://www.linkedin.com/in/matilde-klett-005b13309/"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -360,11 +364,11 @@
           
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <img src="assets/img/team/team4.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/team/fio.png" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Fiorella Toniotti</h4>
-                <span>Co-fundadora</span>
-                <p>Estudiante avanzada de ingeniería en biotecnología<br><br><br></p>
+                <span data-en="Co-founder" data-es="Co-fundadora">Co-fundadora</span>
+                <p data-en="Advanced biotechnology engineering student" data-es="Estudiante avanzada de ingeniería en biotecnología">Estudiante avanzada de ingeniería en biotecnología<br><br><br></p>
                 <div class="social">
                   <a href="https://www.linkedin.com/in/fiorella-toniotti-a46511278/"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -385,11 +389,11 @@
 
         <div class="row" data-aos="zoom-in" data-aos-delay="0">
           <div class="col-xl-9 text-center text-xl-start">
-            <h3>Trabajemos juntos</h3>
-            <p>¿Interesado en un co-desarrollo/piloto o en adquirir nuestros servicios y productos?</p>
+            <h3 data-en="Let's work together" data-es="Trabajemos juntos">Trabajemos juntos</h3>
+            <p data-en="Interested in a co-development/pilot or in acquiring our services and products?" data-es="¿Interesado en un co-desarrollo/piloto o en adquirir nuestros servicios y productos?">¿Interesado en un co-desarrollo/piloto o en adquirir nuestros servicios y productos?</p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contacto">¡Contáctanos!</a>
+            <a class="cta-btn align-middle" href="#contacto" data-en="Contact us!" data-es="¡Contáctanos!">¡Contáctanos!</a>
           </div>
         </div>
 
@@ -402,7 +406,7 @@
 
       <!-- Título de la Sección -->
       <div class="container section-title" data-aos="fade-up" data-aos-delay="0">
-        <h2>Contáctanos</h2>
+        <h2 data-en="Contact Us" data-es="Contáctanos">Contáctanos</h2>
       </div><!-- Fin del Título de la Sección -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="0">
@@ -415,7 +419,7 @@
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="0">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h3>Dirección</h3>
+                  <h3 data-en="Address" data-es="Dirección">Dirección</h3>
                   <p>Cuareim 1447, CIE, Montevideo</p>
                 </div>
               </div><!-- Fin del Elemento de Información -->
@@ -423,7 +427,7 @@
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="0">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Teléfono</h3>
+                  <h3 data-en="Phone" data-es="Teléfono">Teléfono</h3>
                   <p>+598 92 497 887</p>
                 </div>
               </div><!-- Fin del Elemento de Información -->
@@ -431,7 +435,7 @@
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="0">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email</h3>
+                  <h3 data-en="Email" data-es="Email">Email</h3>
                   <p>info@phycotech.bio</p>
                 </div>
               </div><!-- Fin del Elemento de Información -->
@@ -445,31 +449,31 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Tu Nombre</label>
+                  <label for="name-field" class="pb-2" data-en="Your Name" data-es="Tu Nombre">Tu Nombre</label>
                   <input type="text" name="name" id="name-field" class="form-control" required="">
                 </div>
 
                 <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Tu Email</label>
+                  <label for="email-field" class="pb-2" data-en="Your Email" data-es="Tu Email">Tu Email</label>
                   <input type="email" class="form-control" name="email" id="email-field" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Asunto</label>
+                  <label for="subject-field" class="pb-2" data-en="Subject" data-es="Asunto">Asunto</label>
                   <input type="text" class="form-control" name="subject" id="subject-field" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Mensaje</label>
+                  <label for="message-field" class="pb-2" data-en="Message" data-es="Mensaje">Mensaje</label>
                   <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Cargando</div>
+                  <div class="loading" data-en="Loading" data-es="Cargando">Cargando</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                  <div class="sent-message" data-en="Your message has been sent. Thank you!" data-es="Tu mensaje ha sido enviado. ¡Gracias!">Tu mensaje ha sido enviado. ¡Gracias!</div>
 
-                  <button type="submit">Enviar Mensaje</button>
+                  <button type="submit" data-en="Send Message" data-es="Enviar Mensaje">Enviar Mensaje</button>
                 </div>
 
               </div>
@@ -492,19 +496,19 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename"><img src="assets/img/long-logo-white.png" alt=""></span>
           </a>
-          <p>Proteínas inteligentes, soluciones sostenibles</p>
+          <p data-en="Smart proteins, sustainable solutions" data-es="Proteínas inteligentes, soluciones sostenibles">Proteínas inteligentes, soluciones sostenibles</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contáctanos</h4>
+          <h4 data-en="Contact Us" data-es="Contáctanos">Contáctanos</h4>
           <p>Cuareim 1447</p>
           <p>CIE, Montevideo</p>
           <p>Uruguay</p>
-          <p class="mt-4"><strong>Teléfono:</strong> <span>+598 92 497 887</span></p>
-          <p><strong>Email:</strong> <span>info@phycotech.bio</span></p>
+          <p class="mt-4"><strong data-en="Phone:" data-es="Teléfono:">Teléfono:</strong> <span>+598 92 497 887</span></p>
+          <p><strong data-en="Email:" data-es="Email:">Email:</strong> <span>info@phycotech.bio</span></p>
         </div>
 
       </div>
@@ -529,6 +533,59 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js?v10"></script>
+
+  <!-- Language Switcher Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Cargar preferencia de idioma desde localStorage o usar español por defecto
+      const savedLanguage = localStorage.getItem('language') || 'es';
+      changeLanguage(savedLanguage);
+      
+      // Aplicar estilo a los botones de idioma
+      const style = document.createElement('style');
+      style.textContent = `
+        .language-selector {
+          display: flex;
+          gap: 5px;
+        }
+        .lang-btn {
+          color: white;
+          background: transparent;
+          border: 1px solid white;
+          padding: 2px 8px;
+          font-size: 0.8rem;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        .lang-btn.active {
+          background-color: white;
+          color: var(--color-primary);
+          font-weight: bold;
+        }
+      `;
+      document.head.appendChild(style);
+    });
+
+    function changeLanguage(lang) {
+      // Guardar preferencia de idioma
+      localStorage.setItem('language', lang);
+      
+      // Actualizar clase activa en botones
+      document.getElementById('es-btn').classList.toggle('active', lang === 'es');
+      document.getElementById('en-btn').classList.toggle('active', lang === 'en');
+      
+      // Seleccionar todos los elementos con atributos de datos para idiomas
+      const elements = document.querySelectorAll('[data-' + lang + ']');
+      
+      // Aplicar traducciones
+      elements.forEach(element => {
+        element.textContent = element.getAttribute('data-' + lang);
+      });
+      
+      // Actualizar atributos de idioma en la etiqueta HTML
+      document.documentElement.lang = lang;
+    }
+  </script>
 
 </body>
 
