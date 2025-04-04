@@ -10,7 +10,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/logo2.jpeg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.jpeg" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css?v10" rel="stylesheet">
+  <link href="assets/css/main.css?v11" rel="stylesheet">
 
 </head>
 
@@ -54,7 +54,7 @@
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo2.jpg" alt="">
+          <img src="assets/img/logo2.jpg" alt="" loading="lazy">
           <!-- <h1 class="sitename" data-en="Phycotech" data-es="Phycotech">Phycotech</h1> -->
         </a>
 
@@ -65,6 +65,12 @@
             <li><a href="#servicios" data-en="Services" data-es="Servicios">Servicios</a></li>
             <li><a href="#equipo" data-en="Team" data-es="Equipo">Equipo</a></li>
             <li><a href="#contacto" data-en="Contact" data-es="Contacto">Contacto</a></li>
+            <li class="d-xl-none">
+              <div class="language-selector d-flex justify-content-center gap-2 mt-3">
+                <button id="es-btn-mobile" class="btn btn-sm lang-btn active border" onclick="changeLanguage('es')">ESPAÑOL</button>
+                <button id="en-btn-mobile" class="btn btn-sm lang-btn border" onclick="changeLanguage('en')">ENGLISH</button>
+              </div>
+            </li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -84,7 +90,7 @@
 
         <div class="carousel-item active">
           <!--img src="assets/img/hero-carousel/hero-carousel1.jpeg" alt=""-->
-          <video autoplay loop muted playsinline>
+          <video autoplay loop muted playsinline preload="auto">
             <source src="assets/video.mp4" type="video/mp4">
             <span data-en="Your browser does not support HTML5 videos." data-es="Tu navegador no soporta videos HTML5.">Tu navegador no soporta videos HTML5.</span>
           </video>
@@ -95,7 +101,7 @@
             <p class="text-white d-none d-md-block" style="font-size: 22px;
             text-align: center;" data-en="We seek to revolutionize the production of recombinant proteins in the industry through the use of microalgae as a biotechnological platform" data-es="Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
             <p class="d-block d-md-none" data-en="We seek to revolutionize the production of recombinant proteins in the industry through the use of microalgae as a biotechnological platform" data-es="Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica">Buscamos revolucionar la producción de proteínas recombinantes en la industria mediante el uso de microalgas como plataforma biotecnológica</p>
-            <a href="#nuestra-tecnologia" class="btn-get-started" data-en="Our Technology" data-es="Nuestra tecnología">Nuestra tecnología</a>
+            <a href="#nuestra-tecnologia" class="btn-get-started text-center" data-en="Our Technology" data-es="Nuestra tecnología">Nuestra tecnología</a>
           </div>
         </div><!-- End Carousel Item -->
       </div>
@@ -159,8 +165,8 @@
     
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/Patio.png" class="img-fluid" alt="Nosotros">
-            <a href="https://youtube.com/watch?v=5YHPJsMJJUM" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/Patio.webp?v=2" class="img-fluid" alt="Nosotros" loading="lazy">
+            <a href="https://youtu.be/5YHPJsMJJUM?feature=shared" class="glightbox pulsating-play-btn"></a>
           </div>
           <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="vertical-align: middle;
           justify-content: center;
@@ -229,10 +235,10 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client1.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client2.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client3.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client4.jpeg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client1.jpeg" class="img-fluid" alt="" loading="lazy"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client2.jpeg" class="img-fluid" alt="" loading="lazy"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client3.jpeg" class="img-fluid" alt="" loading="lazy"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client4.jpeg" class="img-fluid" alt="" loading="lazy"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -322,7 +328,7 @@
 
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/team/mar.png" class="img-fluid" alt="">
+              <img src="assets/img/team/mar.webp?v=2" class="img-fluid" alt="" loading="lazy">
               <div class="member-content">
                 <h4>Marcia Martinez</h4>
                 <span data-en="Co-founder" data-es="Co-fundadora">Co-fundadora</span>
@@ -336,7 +342,7 @@
           
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/team/facu.png" class="img-fluid" alt="">
+              <img src="assets/img/team/facu.webp?v=2" class="img-fluid" alt="" loading="lazy">
               <div class="member-content">
                 <h4>Facundo Rocha</h4>
                 <span data-en="Co-founder" data-es="Co-fundador">Co-fundador</span>
@@ -350,7 +356,7 @@
           
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <img src="assets/img/team/mati.png" class="img-fluid" alt="">
+              <img src="assets/img/team/mati.webp?v=2" class="img-fluid" alt="" loading="lazy">
               <div class="member-content">
                 <h4>Matilde Klett</h4>
                 <span data-en="Co-founder" data-es="Co-fundadora">Co-fundadora</span>
@@ -364,7 +370,7 @@
           
           <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <img src="assets/img/team/fio.png" class="img-fluid" alt="">
+              <img src="assets/img/team/fio.webp?v=2" class="img-fluid" alt="" loading="lazy">
               <div class="member-content">
                 <h4>Fiorella Toniotti</h4>
                 <span data-en="Co-founder" data-es="Co-fundadora">Co-fundadora</span>
@@ -494,7 +500,7 @@
       <div class="row gy-4">
         <div class="col-lg-9 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename"><img src="assets/img/long-logo-white.png" alt=""></span>
+            <span class="sitename"><img src="assets/img/long-logo-white.png" alt="" loading="lazy"></span>
           </a>
           <p data-en="Smart proteins, sustainable solutions" data-es="Proteínas inteligentes, soluciones sostenibles">Proteínas inteligentes, soluciones sostenibles</p>
           <div class="social-links d-flex mt-4">
@@ -532,7 +538,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js?v10"></script>
+  <script src="assets/js/main.js?v11"></script>
 
   <!-- Language Switcher Script -->
   <script>
@@ -556,11 +562,32 @@
           font-size: 0.8rem;
           border-radius: 4px;
           cursor: pointer;
+          transition: all 0.3s;
+          min-width: 40px;
         }
         .lang-btn.active {
           background-color: white;
           color: var(--color-primary);
           font-weight: bold;
+        }
+        
+        /* Specific styling for mobile buttons to match desktop */
+        #navmenu .language-selector {
+          gap: 10px;
+        }
+        
+        #navmenu .language-selector .lang-btn {
+          color: black;
+          border: 1px solid white;
+          background: white;
+          display: inline-block !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+        }
+        
+        #navmenu .language-selector .lang-btn.active {
+          background-color: #95b446;
+          color: white;
         }
       `;
       document.head.appendChild(style);
@@ -570,9 +597,15 @@
       // Guardar preferencia de idioma
       localStorage.setItem('language', lang);
       
-      // Actualizar clase activa en botones
+      // Actualizar clase activa en botones (desktop)
       document.getElementById('es-btn').classList.toggle('active', lang === 'es');
       document.getElementById('en-btn').classList.toggle('active', lang === 'en');
+      
+      // Actualizar clase activa en botones (mobile)
+      if (document.getElementById('es-btn-mobile')) {
+        document.getElementById('es-btn-mobile').classList.toggle('active', lang === 'es');
+        document.getElementById('en-btn-mobile').classList.toggle('active', lang === 'en');
+      }
       
       // Seleccionar todos los elementos con atributos de datos para idiomas
       const elements = document.querySelectorAll('[data-' + lang + ']');
